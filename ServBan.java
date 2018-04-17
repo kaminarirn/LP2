@@ -10,20 +10,8 @@
  * @author KAMINARI
  */
 import java.io.*;
-import java.io.IOException;
 import java.net.*;
-//import Conta;
-
-
 public class ServBan{
-    Conta[] conta = new Conta[3];
-    conta[0] = new Conta();
-    conta[1] = new Conta(104,500);
-    //Conta conta = new Conta();
-    Conta conta1 = new Conta(101,(float) 250.0);
-    Conta conta2 = new Conta(102,(float) 350.0);
-    Conta contaDoLula = new Conta(103,(float) 500000000);
-    //
     public static void main(String[] args) throws IOException {
         int portNumber = 12345;
             ServerSocket servidor = new ServerSocket(portNumber);
