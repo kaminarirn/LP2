@@ -25,6 +25,7 @@ public class Deck{
         int n = r.nextInt(10)+1;
         int cont=0;
         try{
+            //Altere aqui o local onde se encontra o arquivo Lista.txt
             FileReader arq = new FileReader("C:\\Users\\KAMINARI\\Documents\\NetBeansProjects\\Empilha_deck\\Lista.txt");
             BufferedReader lerArq = new BufferedReader(arq);
             for(int i=0;i<100;i++){
